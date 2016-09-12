@@ -17,6 +17,8 @@ public class TestArrayEntry extends GuiEditArrayEntries.BaseEntry {
     @Override
     public void drawEntry(int slotIndex, int x, int y, int listWidth, int slotHeight, int mouseX, int mouseY, boolean isSelected) {
         super.drawEntry(slotIndex, x, y, listWidth, slotHeight, mouseX, mouseY, isSelected);
+
+        //Accessing minecraft code:
         Minecraft.getMinecraft();
     }
 }
